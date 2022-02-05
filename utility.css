@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #991b1b;
+    --white: #ffffff;
+    --bg-color:#e2e8f0;
+    --border-clr:#b91c1c;
+    --hover-clr:#ef4444;
+  }
+
+.pd-xs{
+    padding: 0.5rem;
+}
+
+.pd-med{
+    padding: 1rem;
+}
+
+.pd-lrg{
+    padding: 2rem;
+}
+
+.mrg-xs{
+    margin: 05.rem;
+}
+
+.mrg-med{
+    margin: 1rem;
+}
+
+.mrg-lrg{
+    margin: 2rem;
+}
+
+.fs-xs{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.fs-med{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.fs-lrg{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fs-xl{
+    font-size: 24px;
+    font-weight: 800;
+}

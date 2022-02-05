@@ -1,0 +1,33 @@
+.avtar-img-container{
+    flex-direction: row;
+    display: inline;
+}
+
+#avtar-small{
+    width: 4rem;
+    height: 4rem;
+    margin:2rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#avtar-medium{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin:1rem;
+    border: 1px solid black;
+}
+
+#avtar-large{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.avtar-code-container{
+    display: flex;
+    justify-content:center;
+    margin:2rem;
+}

@@ -1,51 +1,57 @@
 :root {
     --primary-color: #991b1b;
     --white: #ffffff;
-    --bg-color:#e2e8f0;
-    --border-clr:#b91c1c;
-    --hover-clr:#ef4444;
-  }
+    --bg-color: #e2e8f0;
+    --border-clr: #b91c1c;
+    --hover-clr: #ef4444;
+    --basic-alert: rgb(221, 200, 200);
+    --success-color: #86efac;
+    --info-color: #3b82f6;
+    --warning-color: #f87171;
+    --danger-color: #FF0000;
 
-.pd-xs{
+}
+
+.pd-xs {
     padding: 0.5rem;
 }
 
-.pd-med{
+.pd-med {
     padding: 1rem;
 }
 
-.pd-lrg{
+.pd-lrg {
     padding: 2rem;
 }
 
-.mrg-xs{
+.mrg-xs {
     margin: 05.rem;
 }
 
-.mrg-med{
+.mrg-med {
     margin: 1rem;
 }
 
-.mrg-lrg{
+.mrg-lrg {
     margin: 2rem;
 }
 
-.fs-xs{
+.fs-xs {
     font-size: 12px;
     font-weight: 400;
 }
 
-.fs-med{
+.fs-med {
     font-size: 16px;
     font-weight: 600;
 }
 
-.fs-lrg{
+.fs-lrg {
     font-size: 20px;
     font-weight: 700;
 }
 
-.fs-xl{
+.fs-xl {
     font-size: 24px;
     font-weight: 800;
 }

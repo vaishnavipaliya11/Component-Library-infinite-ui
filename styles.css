@@ -40,20 +40,27 @@ color: azure;
     overflow-y: scroll;
 }
 
-.compo-scroll-list{
+ .compo-scroll-list{
     padding: 1rem;
     list-style:none;
     width: 5rem;
-    border-radius: 10%;
-}
-
-.compo-scroll-list:hover{
-    background-color: var(--primary-color);
-    color: whitesmoke;
-}
+} 
 
 .div-centered{
     display: flex;
     justify-content: center;
     align-self: center;
+}
+
+.style-anchor-list{
+    text-decoration: none;
+    padding: 1rem;
+    list-style:none;
+    border-radius: 15%;
+    color: black;
+}
+
+.style-anchor-list:hover{
+    background-color: var(--primary-color);
+    color:white
 }

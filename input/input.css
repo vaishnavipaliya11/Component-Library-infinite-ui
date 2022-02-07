@@ -1,0 +1,45 @@
+
+
+.textbox-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 25%;
+}
+
+.form-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+.validation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    font-size: 20px;
+    border:1px solid;
+    padding: 2rem;
+    border-color: #FF0000;
+}
+
+.form-input{
+    padding: 0.5rem;
+    margin: 10px;
+    border-color: #86efac;
+}
+
+input{
+    width: 30rem;
+    
+}
+
+#error{
+    font-size: 16px;
+    color: #FF0000;
+    font-weight: 600;
+}

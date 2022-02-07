@@ -1,0 +1,30 @@
+
+.responsive-img-container{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.responsive-img{
+    border: 1px solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
+.curved-img{
+    border: 1px solid;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.round-img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin: 2rem;
+    border:1px solid;
+}

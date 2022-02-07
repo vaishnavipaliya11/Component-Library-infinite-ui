@@ -96,3 +96,8 @@ font-weight: 600;
 .help-link{
     color: var(--cart-btn);
 }
+
+.float-btn{
+    display: flex;
+    position: fixed;
+}

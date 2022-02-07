@@ -1,0 +1,32 @@
+.navigation-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-container{
+    display: flex;
+    background-color:aquamarine;
+    flex-direction: row;
+    padding:1rem;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+
+.copy-code-block{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.center-nav{
+    justify-content: center;
+}
+
+.left-nav{
+    justify-content: flex-start;
+}

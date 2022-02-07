@@ -1,0 +1,47 @@
+.text-heading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.types-of-headings{
+    flex-direction: row;
+    text-align: center;
+    width: 30rem;
+}
+
+#small-heading{
+   
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#medium-heading{
+    
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#large-heading{
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.type-text-container{
+    font-size: 18px;
+    width: max-content;
+}
+
+.gray-text{
+    color: grey;
+}
+
+.bold-text{
+    font-weight: 600;
+}

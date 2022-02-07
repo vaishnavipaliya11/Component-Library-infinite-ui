@@ -39,10 +39,4 @@ border: var(--basic-alert);
     border-radius: 10px;
 }
 
-button{
-    border-radius: 50%;
-    background-color: #808080;
-color:white;
-}
-
 

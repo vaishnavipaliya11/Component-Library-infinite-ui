@@ -1,14 +1,6 @@
-/* .badge-heading{
-    display: flex;
-    justify-content:center;
-    /* padding: 2rem; */
-    /* margin:0px;
+.pd-left{
+    padding-left: 1rem;
 }
-
-.badge-sub-heading{
-    display: flex;
-    justify-content:center;
-} */ */
 
 .badge-container{
     display: flex;

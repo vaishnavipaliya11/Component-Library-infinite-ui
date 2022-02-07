@@ -38,19 +38,10 @@
     width: max-content;
 }
 
-.para-type{
-    padding: 00.5rem;
-    margin: 0.5rem;
+.gray-text{
+    color: grey;
 }
 
-.para-type:nth-child(1){
+.bold-text{
     font-weight: 600;
-}
-
-.para-type:nth-child(2){
-    font-weight: 500;
-}
-
-.para-type:nth-child(3){
-    color: gray;
 }

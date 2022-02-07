@@ -1,9 +1,9 @@
-.avtar-img-container{
+.avatar-img-container{
     flex-direction: row;
     display: inline;
 }
 
-#avtar-small{
+#avatar-small{
     width: 4rem;
     height: 4rem;
     margin:2rem;
@@ -11,7 +11,7 @@
     border: 1px solid black;
 }
 
-#avtar-medium{
+#avatar-medium{
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
@@ -19,14 +19,14 @@
     border: 1px solid black;
 }
 
-#avtar-large{
+#avatar-large{
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
     border: 1px solid black;
 }
 
-.avtar-code-container{
+.avatar-code-container{
     display: flex;
     justify-content:center;
     margin:2rem;

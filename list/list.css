@@ -1,7 +1,6 @@
 
 .normal-lists-container{
-    flex-direction: column;
-    justify-content: space-between;
+    background-color: var(--success-color);
     list-style: none;
     font-weight: 500;
 }
@@ -17,12 +16,17 @@
     list-style: none;
     font-size: 20px;
   padding: 1rem;
+  
 }
 
 .stacked-list{
     display: flex;
     flex-direction: row;
     list-style: none;
-    font-weight: 500;
-   align-self: center;
+    align-self: center;
+   width: max-content;
+   padding:1rem;
+   margin:0.5rem;
+   border-radius: 10%;
+   background-color: var(--success-color);
 }

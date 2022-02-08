@@ -1,17 +1,17 @@
-alert("here")
-const btnHide = document.querySelector("#btn-hide")
-const btnShow = document.querySelector("#btn-show")
+
+
+const btnShowHide = document.querySelector("#btn-show-hide")
 const floatBtn = document.querySelector(".float-btn")
 
+console.log(btnShowHide);
+console.log(floatBtn)
 
-function btnShowHandler()
-{
-    console.log("abcd");
-    floatBtn.style.display="visible"
+function btnDisplayHandler(){
+    if(floatBtn.style.display === "none"){
+        floatBtn.style.display= "block"
+    }else{
+        floatBtn.style.display="none"
+    }
 }
 
-function btnHideHandler(){
-    floatBtn.style.display="none"
-}
-btnShow.addEventListener("click",btnShowHandler)
-btnHide.addEventListener("click",btnHideHandler)
+btnShowHide.addEventListener("click",btnDisplayHandler)

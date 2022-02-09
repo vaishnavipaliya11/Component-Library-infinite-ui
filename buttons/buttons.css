@@ -1,0 +1,134 @@
+:root{
+    --primay-btn:#cbd5e1;
+    --primary-btn-hover:#94a3b8;
+    --cart-btn:#34d399;
+    --cart-btn-hover:#10b981;
+    --login-btn:#2563eb;
+    --alert-btn:#e11d48;
+    --alert-btn-hover:#fb7185;
+}
+
+
+.primary-btns-container{
+    flex-direction: row;
+}
+
+.primary-btn{
+    padding: 0.5rem;
+    margin:2rem;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--primay-btn);
+}
+
+.cart-btn{
+    padding: 00.5rem;
+    margin:2rem;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--cart-btn);
+    border-color: var(--cart-btn);
+    color: white;
+    
+}
+
+.cart-btn:hover{
+    background-color: var(--cart-btn-hover);
+}
+
+.login-btn{
+    padding: 00.5rem;
+    margin:2rem;
+    font-size: 16px;
+    font-weight: 600;
+    border-color:var(--login-btn);
+    color: black;
+    border-radius: 25%;
+}
+
+.login-btn:hover{
+    background-color: var(--login-btn);
+color: white;
+}
+
+.primary-btn:active{
+    background-color:var(--primary-btn-hover);
+}
+
+#alert-btn{
+    padding: 00.5rem;
+    margin:2rem;
+    font-size: 16px;
+    font-weight: 600;
+    border-color:var(--alert-btn);
+    background-color: var(--alert-btn);
+    color: white;
+    
+}
+
+#alert:hover{
+    background-color: var(--alert-btn-hover);
+}
+
+
+.link-btns{
+    margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+.style-links{
+    margin:2rem;
+    padding: 1rem;
+font-size: 20px;
+text-decoration: underline;
+font-weight: 600;
+;
+}
+
+.learn-link{
+    color: var(--login-btn);
+}
+
+.condition-link{
+    color: var(--alert-btn);
+}
+
+.help-link{
+    color: var(--cart-btn);
+}
+
+
+
+.floating-btn-conatiner{
+    position: relative;
+}
+
+.show-btn{
+    padding: 1rem;
+    margin: 0.5rem;
+}
+#btn-show-hide{
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--primary-btn-hover);
+}
+
+.float-btn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    margin:0.5rem;
+    background-color: var(--alert-btn);
+    color: wheat;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10%;
+    border-color: 2px solid var(--alert-btn);
+}
+
+.float-btn-div{
+    display: flex;
+    position:sticky;
+}

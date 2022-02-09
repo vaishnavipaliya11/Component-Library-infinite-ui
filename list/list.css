@@ -1,0 +1,32 @@
+
+.normal-lists-container{
+    background-color: var(--success-color);
+    list-style: none;
+    font-weight: 500;
+}
+
+.list-style{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.stacked-lists-container{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 20px;
+  padding: 1rem;
+  
+}
+
+.stacked-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-self: center;
+   width: max-content;
+   padding:1rem;
+   margin:0.5rem;
+   border-radius: 10%;
+   background-color: var(--success-color);
+}

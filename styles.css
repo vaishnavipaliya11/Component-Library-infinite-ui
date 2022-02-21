@@ -64,3 +64,11 @@ color: azure;
     background-color: var(--primary-color);
     color:white
 }
+
+.doc-explaination{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    
+}

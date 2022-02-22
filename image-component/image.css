@@ -7,19 +7,19 @@
 
 .responsive-img{
     border: 1px solid;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 20rem;
-    max-width: 20rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: auto;
 }
 
 .curved-img{
     border: 1px solid;
-    width: 20rem;
-    height: 20rem;
     border-radius: 25%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: auto;
 }
 .round-img{
     height: 20rem;

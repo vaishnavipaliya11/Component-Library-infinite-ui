@@ -77,9 +77,9 @@ background-color: aliceblue;
     justify-content: center;
 }
 
-.card-text{
-    
+.text-card{
     width: 15rem;
+    border: 1px solid black;
 }
 
 .card-title-dismiss{

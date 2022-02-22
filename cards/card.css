@@ -88,5 +88,8 @@ background-color: aliceblue;
 }
 .card-title-dismiss .bi-bi-heart{
     font-size: 2rem;
+}
 
+.shadow-card{
+    box-shadow:2px 2px 2px 2px ;
 }

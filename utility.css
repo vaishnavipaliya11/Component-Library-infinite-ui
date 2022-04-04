@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #ec4899;
+    --primary-color: #0e7490;
     --white: #ffffff;
     --bg-color: #e2e8f0;
     --border-clr: #b91c1c;
@@ -58,4 +58,8 @@
 
 .pd-left{
     padding-left: 1rem;
+    font-weight: 700;
+    word-spacing: 1px;
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', cursive;
 }

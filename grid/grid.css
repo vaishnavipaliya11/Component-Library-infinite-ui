@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'one two '
+     ;
+     grid-gap: 1rem;
+}
+
+.grid-element-one{
+    grid-area: one;
+    background-color: aqua;
+}
+
+.grid-element-two{
+    grid-area: two;
+    background-color: rgb(195, 205, 61);
+}
+
+.grid-three-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'one two three';
+}
+.grid-element-three{
+    grid-area: three;
+}

@@ -1,0 +1,16 @@
+
+.grid-two-element-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: "one two"; 
+}
+
+.grid-element-one{
+    grid-area: one;
+    background-color: rebeccapurple;
+}
+
+.grid-element-two{
+    grid-area: two;
+    background-color: brown;
+}

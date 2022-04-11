@@ -1,0 +1,23 @@
+.grid-two-element-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "one two";
+  gap: 1rem;
+}
+.grid-element-one {
+  grid-area: one;
+}
+
+.grid-element-two {
+  grid-area: two;
+}
+
+.grid-three-element-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "one two three";
+  gap: 1rem;
+}
+.grid-element-three {
+  grid-area: three;
+}

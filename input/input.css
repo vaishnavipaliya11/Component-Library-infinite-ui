@@ -16,11 +16,10 @@
     padding: 0.5rem;
     margin: 10px;
     border-color: #86efac;
-}
-
-input {
     width: 30rem;
 }
+
+
 
 #error {
     font-size: 16px;

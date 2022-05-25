@@ -1,0 +1,21 @@
+.toast{
+    display: inline-block;
+    background-color:var( --basic-alert);
+    padding: 10px;
+    font-weight:normal;
+    border-radius: 5px;
+    margin:1rem
+}
+
+.toast-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+
+.toasts-btn{
+    background-color: var(--basic-alert);
+    border: none;
+    cursor: pointer;
+}

@@ -119,8 +119,6 @@ background-color: aliceblue;
   flex-direction: row;
   align-content: center;
   align-items: center;
-  float: left;
-  width: 50%;
   }
 
   .product-price{
